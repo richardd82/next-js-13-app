@@ -1,3 +1,14 @@
+'use client'
+import test from '../Logic/Test.js'
+
+
 export default function Page () {
-  return <h1>Esta es mi App por el momento</h1>
+
+const text = test()
+
+console.log(text)
+
+  return <h1>{text}
+
+    Esta es mi App por el momento</h1>
 }
